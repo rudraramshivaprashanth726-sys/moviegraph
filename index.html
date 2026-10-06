@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato | Discover great food</title>
+    <meta
+      name="description"
+      content="Zomato-inspired food discovery website with restaurant collections, local favorites, and app promo."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="logo" aria-label="Zomato home">zomato</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#">Login</a>
+          <a href="#">Sign up</a>
+          <button class="btn btn-primary small">Get the App</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="brand" aria-label="Zomato">zomato</div>
+          <h1>Discover the best food & drinks in City</h1>
+          <div class="search-box" role="search">
+            <div class="search-location">
+              <span class="icon">📍</span>
+              <span>Delhi, India</span>
+            </div>
+            <div class="divider"></div>
+            <div class="search-input">
+              <span class="icon">🔍</span>
+              <input type="text" placeholder="Search for restaurant, cuisine or a dish" aria-label="Search foods" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container quick-picks">
+        <article class="promo-card">
+          <div class="promo-icon">🥗</div>
+          <div>
+            <h3>Order Online</h3>
+            <p>Stay home and get your favorite meals at your doorstep.</p>
+          </div>
+        </article>
+        <article class="promo-card">
+          <div class="promo-icon">🍽️</div>
+          <div>
+            <h3>Book a Table</h3>
+            <p>Reserve a table at the finest restaurants in your city.</p>
+          </div>
+        </article>
+        <article class="promo-card">
+          <div class="promo-icon">🚴</div>
+          <div>
+            <h3>Go out for a meal</h3>
+            <p>Explore trending spots and hidden gems around you.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="container section-block">
+        <div class="section-header">
+          <h2>Collections</h2>
+          <a href="#">All collections</a>
+        </div>
+        <div class="collections-grid">
+          <article class="collection-card card-one">
+            <div class="card-content">
+              <h3>Live Cricket Screening</h3>
+              <p>12 places</p>
+            </div>
+          </article>
+          <article class="collection-card card-two">
+            <div class="card-content">
+              <h3>Best in Dessert</h3>
+              <p>18 places</p>
+            </div>
+          </article>
+          <article class="collection-card card-three">
+            <div class="card-content">
+              <h3>Veggie Delights</h3>
+              <p>22 places</p>
+            </div>
+          </article>
+          <article class="collection-card card-four">
+            <div class="card-content">
+              <h3>Open Late</h3>
+              <p>14 places</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section-block">
+        <div class="section-header">
+          <h2>Popular localities in and around Delhi</h2>
+        </div>
+        <div class="locality-grid">
+          <article class="locality-item">
+            <h3>Connaught Place</h3>
+            <p>2,473 places</p>
+          </article>
+          <article class="locality-item">
+            <h3>Dwarka</h3>
+            <p>1,493 places</p>
+          </article>
+          <article class="locality-item">
+            <h3>Koramangala</h3>
+            <p>1,980 places</p>
+          </article>
+          <article class="locality-item">
+            <h3>Rajouri Garden</h3>
+            <p>1,204 places</p>
+          </article>
+          <article class="locality-item">
+            <h3>Greater Kailash</h3>
+            <p>1,846 places</p>
+          </article>
+          <article class="locality-item">
+            <h3>Indiranagar</h3>
+            <p>956 places</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section-block app-showcase">
+        <div class="phone-mockup" aria-hidden="true">
+          <div class="phone-screen">
+            <div class="screen-header">
+              <span>9:41</span>
+              <span>📶</span>
+            </div>
+            <div class="screen-card">
+              <div class="mini-image"></div>
+              <div>
+                <strong>Foodies</strong>
+                <p>20 mins away</p>
+              </div>
+            </div>
+            <div class="food-list">
+              <div class="food-item">
+                <span class="food-badge">🍔</span>
+                <span>Classic Burger</span>
+                <strong>₹349</strong>
+              </div>
+              <div class="food-item">
+                <span class="food-badge">🍕</span>
+                <span>Veg Pizza</span>
+                <strong>₹499</strong>
+              </div>
+              <div class="food-item">
+                <span class="food-badge">🥤</span>
+                <span>Mango Shake</span>
+                <strong>₹199</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-copy">
+          <h2>Get the Zomato app</h2>
+          <p>
+            We will send you a link, open it on your phone to download the app.
+          </p>
+          <div class="app-form">
+            <input type="tel" value="+91" aria-label="Phone number" />
+            <button class="btn btn-primary">Share App Link</button>
+          </div>
+          <div class="store-links">
+            <a href="#" class="store-badge">App Store</a>
+            <a href="#" class="store-badge">Google Play</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="logo footer-logo">zomato</div>
+          <p>Discover the best in your city.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Company</h4>
+            <a href="#">Who we are</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+          </div>
+          <div>
+            <h4>For foodies</h4>
+            <a href="#">Code of conduct</a>
+            <a href="#">Community</a>
+            <a href="#">Blogger Help</a>
+          </div>
+          <div>
+            <h4>For restaurants</h4>
+            <a href="#">Add a restaurant</a>
+            <a href="#">Business app</a>
+            <a href="#">Products for businesses</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Zomato clone demo</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
